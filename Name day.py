@@ -1,15 +1,5 @@
 # nameday.py
 
-# This takes the date in dd mm yyy format, calculates the year day, and then outputs the name day of that day, by using yearday as the index.
-
-# My idea was that we could use this in the app - when a customer logs in, if they have given their birthday, 
-# we could congratulate them if they log in on their name day and give them a small discount.  This could also work
-# work in the cleaner app - a nice congratulations for the cleaner if they have a name day in Finland.
-
-# There is a " " as the first name in each list so that the year day 01, matches the index [1] for the first day/name.
-
-# The dates for leap-years work, but for non-leap years, they give the previous day's name.
-
 from datetime import datetime, date 
 from time import gmtime, strftime
 import datetime
